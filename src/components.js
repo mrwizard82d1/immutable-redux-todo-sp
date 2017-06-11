@@ -6,12 +6,12 @@ import React from 'react';
 
 export function ToDo({ toDo }) {
   // If this item is complete
-  if (toDo.isDone) {
+  if (toDo.get('isDone')) {
     // Render using strikethrough
-    return <strike>{ toDo.text }</strike>
+    return <strike>{ toDo.get('text') }</strike>
   } else {
     // Otherwise, render it in a span
-    return <span>{ toDo.text }</span>
+    return <span>{ toDo.get('text') }</span>
   }
 }
 
@@ -21,7 +21,7 @@ export function ToDoList({ toDos }) {
       <input type="text" placeholder="Add ToDo" />
       <ul className="todo-list">
         {toDos.map((t) => (
-          <li key={t.id} className="todo-list">
+          <li key={ t.get('id') } className="todo-list">
             <ToDo toDo={ t } />
           </li>
         ))}
