@@ -4,6 +4,7 @@
   "description": "To Do app using React, Redux and Immutable (from SitePoint blog)",
   "main": "index.js",
   "scripts": {
+    "build": "node_modules/.bin/webpack --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
