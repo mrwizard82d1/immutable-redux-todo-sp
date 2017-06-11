@@ -1,0 +1,35 @@
+{
+  "name": "immutable-redux-todo-sp",
+  "version": "1.0.0",
+  "description": "To Do app using React, Redux and Immutable (from SitePoint blog)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrwizard82d1/immutable-redux-todo-sp.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrwizard82d1/immutable-redux-todo-sp/issues"
+  },
+  "homepage": "https://github.com/mrwizard82d1/immutable-redux-todo-sp#readme",
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.5.4",
+    "react-core": "0.0.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react-core": "0.0.0",
+    "webpack": "^2.6.1"
+  }
+}
